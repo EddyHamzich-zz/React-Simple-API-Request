@@ -32,7 +32,7 @@ export default class SimpleRequestComponent extends Component {
             ? 
             (this.setState({ loading: true }))
             :
-            (this.setState({ loading: false, stocksApi:{TSLA, AAPL} }));
+            (this.setState({ loading: false, stocksApi: {TSLA, AAPL} }));
 
             console.log(this.state.stocksApi); // Log data again to see if its actually inside our state!
             
